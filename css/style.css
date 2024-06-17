@@ -1,0 +1,140 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+label {
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+form {
+  margin: 0px;
+  width: 300px; height: 200px;
+}
+
+header {  
+  background-color: #089fdab4;
+  text-align: center;
+  padding: 0px;
+  font-size: medium;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #1e9da7d0;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #191461;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(),
+  url("../foto/fondo.jpg");
+}
+a { 
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgba(21, 22, 99, 0.879);
+  background-color: aqua;
+}
+
+main {
+  padding: 20px 50px;
+}
+footer {
+  background-color: #089fdab4;
+  text-align: center;
+  padding: 10px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+a img {
+  width: 300px; height: 200px;
+}
+body {
+  background-image: url("../foto/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 100px;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.galeria > a{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid rgba(0, 0, 0, 0.685)
+}
+
+.galeria img{
+  width:100%;
+  vertical-align: top;
+  height:300px;
+  object-fit:cover;
+}
+
+
+
+div.noticia img.derecha {
+  float: right;
+  margin-left: 15px;
+}
+
+div.reset {
+  clear: both;
+}
+
+div.noticia {
+  width: 50%;
+  margin: 20px auto;
+  
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+div {
+  background-color: #6f707ad3;
+}
+
+
+
+
+
+p {
+    color:rgb(0, 0, 0);
+}
+.owo {
+    color: rgb(255, 255, 255);
+}
+
+.ewe {
+  color: #ffffff;
+}
+
+.awa {
+  color: rgb(255, 255, 255);
+}
+  
+
+ 
